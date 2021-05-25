@@ -1,0 +1,15 @@
+C:\Desktop\HK2-năm 3\Ngôn ngữ lập trình C# - CS511.L21\BTTH\QRCode\QRCode\bin\Debug\QRCode.exe.config
+C:\Desktop\HK2-năm 3\Ngôn ngữ lập trình C# - CS511.L21\BTTH\QRCode\QRCode\bin\Debug\QRCode.exe
+C:\Desktop\HK2-năm 3\Ngôn ngữ lập trình C# - CS511.L21\BTTH\QRCode\QRCode\bin\Debug\QRCode.pdb
+C:\Desktop\HK2-năm 3\Ngôn ngữ lập trình C# - CS511.L21\BTTH\QRCode\QRCode\bin\Debug\FontAwesome.Sharp.dll
+C:\Desktop\HK2-năm 3\Ngôn ngữ lập trình C# - CS511.L21\BTTH\QRCode\QRCode\obj\Debug\QRCode.csprojAssemblyReference.cache
+C:\Desktop\HK2-năm 3\Ngôn ngữ lập trình C# - CS511.L21\BTTH\QRCode\QRCode\obj\Debug\QRCode.Properties.Resources.resources
+C:\Desktop\HK2-năm 3\Ngôn ngữ lập trình C# - CS511.L21\BTTH\QRCode\QRCode\obj\Debug\QRCode.csproj.GenerateResource.cache
+C:\Desktop\HK2-năm 3\Ngôn ngữ lập trình C# - CS511.L21\BTTH\QRCode\QRCode\obj\Debug\QRCode.csproj.CoreCompileInputs.cache
+C:\Desktop\HK2-năm 3\Ngôn ngữ lập trình C# - CS511.L21\BTTH\QRCode\QRCode\obj\Debug\QRCode.csproj.CopyComplete
+C:\Desktop\HK2-năm 3\Ngôn ngữ lập trình C# - CS511.L21\BTTH\QRCode\QRCode\obj\Debug\QRCode.exe
+C:\Desktop\HK2-năm 3\Ngôn ngữ lập trình C# - CS511.L21\BTTH\QRCode\QRCode\obj\Debug\QRCode.pdb
+C:\Desktop\HK2-năm 3\Ngôn ngữ lập trình C# - CS511.L21\BTTH\QRCode\QRCode\obj\Debug\QRCode.fMain.resources
+C:\Desktop\HK2-năm 3\Ngôn ngữ lập trình C# - CS511.L21\BTTH\QRCode\QRCode\obj\Debug\QRCode.fAnother.resources
+C:\Desktop\HK2-năm 3\Ngôn ngữ lập trình C# - CS511.L21\BTTH\QRCode\QRCode\obj\Debug\QRCode.fOrder.resources
+C:\Desktop\HK2-năm 3\Ngôn ngữ lập trình C# - CS511.L21\BTTH\QRCode\QRCode\obj\Debug\QRCode.fProduct.resources
