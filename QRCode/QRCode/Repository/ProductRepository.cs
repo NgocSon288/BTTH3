@@ -3,7 +3,7 @@ using QRCode.Repository.Interface;
 
 namespace QRCode.Repository
 {
-    public class CategoryFilmRepository : RepositoryBase<CategoryFilm>, ICategoryFilmRepository
+    public class ProductRepository : RepositoryBase<Product>, IProductRepository
     {
     }
 }

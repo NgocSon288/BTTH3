@@ -2,7 +2,7 @@
 
 namespace QRCode.Repository.Interface
 {
-    public interface ICategoryFilmRepository : IRepository<CategoryFilm>
+    public interface IProductRepository : IRepository<Product>
     {
     }
 }

@@ -1,5 +1,4 @@
 ﻿using QRCode.Common;
-using QRCode.UCs;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -10,11 +9,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace QRCode
+namespace QRCode.UCs
 {
-    public partial class fProduct : UserControl
+    public partial class UpdateProductUC : UserControl
     {
-        public fProduct()
+        public UpdateProductUC()
         {
             InitializeComponent();
 
@@ -54,25 +53,27 @@ namespace QRCode
             Constants.MainForm.WindowState = FormWindowState.Minimized;
         }
 
-        #endregion Header
+        #endregion
 
-        #region Events
 
-        private void btnAdd_Click(object sender, EventArgs e)
+        #region Events 
+
+        private void btnBack_Click(object sender, EventArgs e)
         {
-            var f = new CreateProductUC();
+            var f = new fProduct();
             UIHelper.ShowControl(f, Constants.MainForm.panelContent);
         }
 
-        private void btnUpdate_Click(object sender, EventArgs e)
+        private void btnBack_MouseEnter(object sender, EventArgs e)
         {
-            var f = new UpdateProductUC();
-            UIHelper.ShowControl(f, Constants.MainForm.panelContent);
+            btnBack.IconColor = Color.FromArgb(255, 34, 101);
+            btnBack.ForeColor = Color.FromArgb(255, 34, 101);
         }
 
-        private void btnDelete_Click(object sender, EventArgs e)
+        private void btnBack_MouseLeave(object sender, EventArgs e)
         {
-            MessageBox.Show("Chua làm xóa");
+            btnBack.IconColor = Color.FromArgb(0, 151, 230);
+            btnBack.ForeColor = Color.FromArgb(0, 151, 230);
         }
 
         #endregion

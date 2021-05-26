@@ -77,14 +77,30 @@
     <Compile Include="fProduct.Designer.cs">
       <DependentUpon>fProduct.cs</DependentUpon>
     </Compile>
-    <Compile Include="Models\CategoryFilm.cs" />
+    <Compile Include="Models\Category.cs" />
+    <Compile Include="Models\Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repository\CategoryLilmRepository.cs" />
-    <Compile Include="Repository\Interface\ICategoryFilmRepository.cs" />
+    <Compile Include="Repository\CategoryRepository.cs" />
+    <Compile Include="Repository\Interface\ICategoryRe[psitory.cs" />
+    <Compile Include="Repository\ProductRepository.cs" />
+    <Compile Include="Repository\Interface\IProductRepository.cs" />
     <Compile Include="Repository\Interface\IRepositoryBase.cs" />
     <Compile Include="Repository\RepositoryBase.cs" />
-    <Compile Include="Services\CategoryFilmService.cs" />
+    <Compile Include="Services\CategoryService.cs" />
+    <Compile Include="Services\ProductService.cs" />
+    <Compile Include="UCs\CreateProductUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCs\CreateProductUC.Designer.cs">
+      <DependentUpon>CreateProductUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCs\UpdateProductUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCs\UpdateProductUC.Designer.cs">
+      <DependentUpon>UpdateProductUC.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="fAnother.resx">
       <DependentUpon>fAnother.cs</DependentUpon>
     </EmbeddedResource>
@@ -106,6 +122,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="UCs\CreateProductUC.resx">
+      <DependentUpon>CreateProductUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCs\UpdateProductUC.resx">
+      <DependentUpon>UpdateProductUC.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -120,11 +142,13 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="DB\" />
-  </ItemGroup>
-  <ItemGroup>
+    <Content Include="Assets\Images\136501140dong-thap.jpg" />
+    <Content Include="Assets\Images\952686625film4.jpg" />
     <Content Include="Assets\Images\logo.png" />
+    <Content Include="DB\Category.txt" />
+    <Content Include="DB\Product.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

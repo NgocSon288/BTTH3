@@ -1,0 +1,9 @@
+categoryService.InsertRange(new List<Category>()
+            {
+                new Category("Lương thực, thực phẩm"),
+                new Category("Nông nghiệp và nguyên vật liệu thô"),
+                new Category("Thực phẩm chức năng"),
+                new Category("Nước uống đóng chai"),
+                new Category("Các sản phẩm đặc biệt"),
+                new Category("Thịt và các sản phẩm từ thịt")
+            });

@@ -6,30 +6,30 @@ using System.Collections.Generic;
 
 namespace QRCode.Services
 {
-    public interface ICategoryFilmService
+    public interface ICategoryService
     {
-        bool InsertRange(List<CategoryFilm> entities, bool isOveride = true);
+        bool InsertRange(List<Category> entities, bool isOveride = true);
 
-        bool Insert(CategoryFilm entity);
+        bool Insert(Category entity);
 
-        List<CategoryFilm> GetAll();
+        List<Category> GetAll();
 
-        CategoryFilm GetByID(Guid id);
+        Category GetByID(Guid id);
 
         bool DeleteAll();
 
         bool DeleteByID(Guid id);
 
-        bool Update(CategoryFilm entity);
+        bool Update(Category entity);
     }
 
-    public class CategoryFilmService : ICategoryFilmService
+    public class CategoryService : ICategoryService
     {
-        private readonly ICategoryFilmRepository _categoryFilmRepository;
+        private readonly ICategoryRepository _categoryFilmRepository;
 
-        public CategoryFilmService()
+        public CategoryService()
         {
-            this._categoryFilmRepository = new CategoryFilmRepository();
+            this._categoryFilmRepository = new CategoryRepository();
         }
 
         public bool DeleteAll()
@@ -42,27 +42,27 @@ namespace QRCode.Services
             return _categoryFilmRepository.DeleteByID(id);
         }
 
-        public List<CategoryFilm> GetAll()
+        public List<Category> GetAll()
         {
             return _categoryFilmRepository.GetAll();
         }
 
-        public CategoryFilm GetByID(Guid id)
+        public Category GetByID(Guid id)
         {
             return _categoryFilmRepository.GetByID(id);
         }
 
-        public bool Insert(CategoryFilm entity)
+        public bool Insert(Category entity)
         {
             return _categoryFilmRepository.Insert(entity);
         }
 
-        public bool InsertRange(List<CategoryFilm> entities, bool isOveride = true)
+        public bool InsertRange(List<Category> entities, bool isOveride = true)
         {
             return _categoryFilmRepository.InsertRange(entities, isOveride);
         }
 
-        public bool Update(CategoryFilm entity)
+        public bool Update(Category entity)
         {
             return _categoryFilmRepository.Update(entity);
         }

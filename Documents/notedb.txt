@@ -1,0 +1,19 @@
+*** Quản trị sản phẩm
+
+** Product.cs
+- ID: Guid
+- Name: string
+- Price: decimal
+- Description: string
+- Image: string
+- QR: string -> img
+- Supplier: string
+	
+	+ Thêm
+		- Thêm các input data, 
+	
+	+ Xóa
+
+	+ Sửa 
+
+	++ Exports danh sách các ID sản phẩm dưới dạng QRCode

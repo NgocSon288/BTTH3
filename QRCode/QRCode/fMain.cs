@@ -16,7 +16,7 @@ namespace QRCode
 {
     public partial class fMain : Form
     {
-        private readonly CategoryFilmService _categoryFilmService;
+        private readonly CategoryService categoryService;
 
         private IconButton currentBtn;
         private Panel leftBorderBtn;
@@ -26,6 +26,7 @@ namespace QRCode
             InitializeComponent();
 
             Load();
+
         }
 
         new private void Load()

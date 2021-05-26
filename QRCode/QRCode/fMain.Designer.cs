@@ -199,7 +199,7 @@ namespace QRCode
         private FontAwesome.Sharp.IconButton btnProduct;
         private FontAwesome.Sharp.IconButton btnOrder2;
         private FontAwesome.Sharp.IconButton btnOrder1;
-        private System.Windows.Forms.Panel panelContent;
+        public System.Windows.Forms.Panel panelContent;
     }
 }
 
