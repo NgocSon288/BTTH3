@@ -46,12 +46,12 @@ namespace QRCode.UCs
             this.txtDescription = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.pnlImage = new System.Windows.Forms.Panel();
+            this.picImage = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
             this.cbbCategory = new System.Windows.Forms.ComboBox();
             this.btnUpdate = new System.Windows.Forms.Button();
             this.btnCreate = new System.Windows.Forms.Button();
-            this.picImage = new System.Windows.Forms.PictureBox();
             this.panel6 = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
             this.txtID = new System.Windows.Forms.TextBox();
@@ -60,8 +60,8 @@ namespace QRCode.UCs
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
             this.pnlImage.SuspendLayout();
-            this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picImage)).BeginInit();
+            this.panel5.SuspendLayout();
             this.panel6.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -75,10 +75,10 @@ namespace QRCode.UCs
             this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClose.ForeColor = System.Drawing.Color.White;
-            this.btnClose.Location = new System.Drawing.Point(948, 5);
-            this.btnClose.Margin = new System.Windows.Forms.Padding(6);
+            this.btnClose.Location = new System.Drawing.Point(1896, 10);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(12, 12, 12, 12);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(30, 30);
+            this.btnClose.Size = new System.Drawing.Size(60, 58);
             this.btnClose.TabIndex = 19;
             this.btnClose.TabStop = false;
             this.btnClose.Text = "X";
@@ -95,10 +95,10 @@ namespace QRCode.UCs
             this.btnMinimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMinimize.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMinimize.ForeColor = System.Drawing.Color.White;
-            this.btnMinimize.Location = new System.Drawing.Point(906, 5);
-            this.btnMinimize.Margin = new System.Windows.Forms.Padding(6);
+            this.btnMinimize.Location = new System.Drawing.Point(1812, 10);
+            this.btnMinimize.Margin = new System.Windows.Forms.Padding(12, 12, 12, 12);
             this.btnMinimize.Name = "btnMinimize";
-            this.btnMinimize.Size = new System.Drawing.Size(30, 30);
+            this.btnMinimize.Size = new System.Drawing.Size(60, 58);
             this.btnMinimize.TabIndex = 20;
             this.btnMinimize.TabStop = false;
             this.btnMinimize.Text = "--";
@@ -118,10 +118,10 @@ namespace QRCode.UCs
             this.btnBack.IconChar = FontAwesome.Sharp.IconChar.Backward;
             this.btnBack.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(151)))), ((int)(((byte)(230)))));
             this.btnBack.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnBack.Location = new System.Drawing.Point(0, 5);
+            this.btnBack.Location = new System.Drawing.Point(0, 10);
             this.btnBack.Margin = new System.Windows.Forms.Padding(0);
             this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(120, 30);
+            this.btnBack.Size = new System.Drawing.Size(240, 58);
             this.btnBack.TabIndex = 40;
             this.btnBack.TabStop = false;
             this.btnBack.Text = "Quay lại";
@@ -136,9 +136,10 @@ namespace QRCode.UCs
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Consolas", 28F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(70)))), ((int)(((byte)(202)))));
-            this.label2.Location = new System.Drawing.Point(294, 10);
+            this.label2.Location = new System.Drawing.Point(588, 19);
+            this.label2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(377, 45);
+            this.label2.Size = new System.Drawing.Size(735, 88);
             this.label2.TabIndex = 41;
             this.label2.Text = "THÊM MỚI SẢN PHẨM";
             // 
@@ -147,19 +148,20 @@ namespace QRCode.UCs
             this.panel1.Controls.Add(this.pnlName);
             this.panel1.Controls.Add(this.txtName);
             this.panel1.Controls.Add(this.label3);
-            this.panel1.Location = new System.Drawing.Point(352, 206);
+            this.panel1.Location = new System.Drawing.Point(704, 396);
+            this.panel1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(621, 33);
+            this.panel1.Size = new System.Drawing.Size(1242, 63);
             this.panel1.TabIndex = 93;
             // 
             // pnlName
             // 
             this.pnlName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(139)))), ((int)(((byte)(172)))));
             this.pnlName.ForeColor = System.Drawing.Color.Red;
-            this.pnlName.Location = new System.Drawing.Point(180, 26);
-            this.pnlName.Margin = new System.Windows.Forms.Padding(6);
+            this.pnlName.Location = new System.Drawing.Point(360, 50);
+            this.pnlName.Margin = new System.Windows.Forms.Padding(12, 12, 12, 12);
             this.pnlName.Name = "pnlName";
-            this.pnlName.Size = new System.Drawing.Size(427, 2);
+            this.pnlName.Size = new System.Drawing.Size(854, 4);
             this.pnlName.TabIndex = 92;
             // 
             // txtName
@@ -168,10 +170,10 @@ namespace QRCode.UCs
             this.txtName.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtName.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(139)))), ((int)(((byte)(172)))));
-            this.txtName.Location = new System.Drawing.Point(186, 6);
-            this.txtName.Margin = new System.Windows.Forms.Padding(6);
+            this.txtName.Location = new System.Drawing.Point(372, 12);
+            this.txtName.Margin = new System.Windows.Forms.Padding(12, 12, 12, 12);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(415, 37);
+            this.txtName.Size = new System.Drawing.Size(830, 73);
             this.txtName.TabIndex = 90;
             this.txtName.Enter += new System.EventHandler(this.textBox1_Enter);
             this.txtName.Leave += new System.EventHandler(this.textBox1_Leave);
@@ -181,10 +183,10 @@ namespace QRCode.UCs
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(5, 6);
-            this.label3.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label3.Location = new System.Drawing.Point(10, 12);
+            this.label3.Margin = new System.Windows.Forms.Padding(12, 0, 12, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(139, 24);
+            this.label3.Size = new System.Drawing.Size(277, 44);
             this.label3.TabIndex = 91;
             this.label3.Text = "*Tên sản phẩm";
             // 
@@ -193,19 +195,20 @@ namespace QRCode.UCs
             this.panel3.Controls.Add(this.pnlPrice);
             this.panel3.Controls.Add(this.txtPrice);
             this.panel3.Controls.Add(this.label1);
-            this.panel3.Location = new System.Drawing.Point(352, 308);
+            this.panel3.Location = new System.Drawing.Point(704, 592);
+            this.panel3.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(621, 33);
+            this.panel3.Size = new System.Drawing.Size(1242, 63);
             this.panel3.TabIndex = 94;
             // 
             // pnlPrice
             // 
             this.pnlPrice.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(139)))), ((int)(((byte)(172)))));
             this.pnlPrice.ForeColor = System.Drawing.Color.Red;
-            this.pnlPrice.Location = new System.Drawing.Point(180, 26);
-            this.pnlPrice.Margin = new System.Windows.Forms.Padding(6);
+            this.pnlPrice.Location = new System.Drawing.Point(360, 50);
+            this.pnlPrice.Margin = new System.Windows.Forms.Padding(12, 12, 12, 12);
             this.pnlPrice.Name = "pnlPrice";
-            this.pnlPrice.Size = new System.Drawing.Size(427, 2);
+            this.pnlPrice.Size = new System.Drawing.Size(854, 4);
             this.pnlPrice.TabIndex = 92;
             // 
             // txtPrice
@@ -214,10 +217,10 @@ namespace QRCode.UCs
             this.txtPrice.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPrice.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(139)))), ((int)(((byte)(172)))));
-            this.txtPrice.Location = new System.Drawing.Point(186, 6);
-            this.txtPrice.Margin = new System.Windows.Forms.Padding(6);
+            this.txtPrice.Location = new System.Drawing.Point(372, 12);
+            this.txtPrice.Margin = new System.Windows.Forms.Padding(12, 12, 12, 12);
             this.txtPrice.Name = "txtPrice";
-            this.txtPrice.Size = new System.Drawing.Size(415, 37);
+            this.txtPrice.Size = new System.Drawing.Size(830, 73);
             this.txtPrice.TabIndex = 90;
             this.txtPrice.Enter += new System.EventHandler(this.textBox1_Enter);
             this.txtPrice.Leave += new System.EventHandler(this.textBox1_Leave);
@@ -227,10 +230,10 @@ namespace QRCode.UCs
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(5, 6);
-            this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label1.Location = new System.Drawing.Point(10, 12);
+            this.label1.Margin = new System.Windows.Forms.Padding(12, 0, 12, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(138, 24);
+            this.label1.Size = new System.Drawing.Size(282, 44);
             this.label1.TabIndex = 91;
             this.label1.Text = "* Giá sản phẩm";
             // 
@@ -239,19 +242,20 @@ namespace QRCode.UCs
             this.panel4.Controls.Add(this.pnlDescription);
             this.panel4.Controls.Add(this.txtDescription);
             this.panel4.Controls.Add(this.label4);
-            this.panel4.Location = new System.Drawing.Point(352, 410);
+            this.panel4.Location = new System.Drawing.Point(704, 788);
+            this.panel4.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(621, 33);
+            this.panel4.Size = new System.Drawing.Size(1242, 63);
             this.panel4.TabIndex = 95;
             // 
             // pnlDescription
             // 
             this.pnlDescription.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(139)))), ((int)(((byte)(172)))));
             this.pnlDescription.ForeColor = System.Drawing.Color.Red;
-            this.pnlDescription.Location = new System.Drawing.Point(180, 26);
-            this.pnlDescription.Margin = new System.Windows.Forms.Padding(6);
+            this.pnlDescription.Location = new System.Drawing.Point(360, 50);
+            this.pnlDescription.Margin = new System.Windows.Forms.Padding(12, 12, 12, 12);
             this.pnlDescription.Name = "pnlDescription";
-            this.pnlDescription.Size = new System.Drawing.Size(427, 2);
+            this.pnlDescription.Size = new System.Drawing.Size(854, 4);
             this.pnlDescription.TabIndex = 92;
             // 
             // txtDescription
@@ -260,10 +264,10 @@ namespace QRCode.UCs
             this.txtDescription.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtDescription.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDescription.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(139)))), ((int)(((byte)(172)))));
-            this.txtDescription.Location = new System.Drawing.Point(186, 6);
-            this.txtDescription.Margin = new System.Windows.Forms.Padding(6);
+            this.txtDescription.Location = new System.Drawing.Point(372, 12);
+            this.txtDescription.Margin = new System.Windows.Forms.Padding(12, 12, 12, 12);
             this.txtDescription.Name = "txtDescription";
-            this.txtDescription.Size = new System.Drawing.Size(415, 37);
+            this.txtDescription.Size = new System.Drawing.Size(830, 73);
             this.txtDescription.TabIndex = 90;
             this.txtDescription.Enter += new System.EventHandler(this.textBox1_Enter);
             this.txtDescription.Leave += new System.EventHandler(this.textBox1_Leave);
@@ -273,10 +277,10 @@ namespace QRCode.UCs
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(5, 6);
-            this.label4.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label4.Location = new System.Drawing.Point(10, 12);
+            this.label4.Margin = new System.Windows.Forms.Padding(12, 0, 12, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(68, 24);
+            this.label4.Size = new System.Drawing.Size(140, 44);
             this.label4.TabIndex = 91;
             this.label4.Text = "* Mô tả";
             // 
@@ -284,18 +288,33 @@ namespace QRCode.UCs
             // 
             this.pnlImage.BackColor = System.Drawing.Color.Gray;
             this.pnlImage.Controls.Add(this.picImage);
-            this.pnlImage.Location = new System.Drawing.Point(12, 102);
+            this.pnlImage.Location = new System.Drawing.Point(24, 196);
+            this.pnlImage.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.pnlImage.Name = "pnlImage";
-            this.pnlImage.Size = new System.Drawing.Size(325, 325);
+            this.pnlImage.Size = new System.Drawing.Size(650, 625);
             this.pnlImage.TabIndex = 96;
+            // 
+            // picImage
+            // 
+            this.picImage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(188)))), ((int)(((byte)(206)))), ((int)(((byte)(229)))));
+            this.picImage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picImage.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.picImage.Location = new System.Drawing.Point(4, 4);
+            this.picImage.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.picImage.Name = "picImage";
+            this.picImage.Size = new System.Drawing.Size(642, 617);
+            this.picImage.TabIndex = 0;
+            this.picImage.TabStop = false;
+            this.picImage.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // panel5
             // 
             this.panel5.Controls.Add(this.label5);
             this.panel5.Controls.Add(this.cbbCategory);
-            this.panel5.Location = new System.Drawing.Point(352, 512);
+            this.panel5.Location = new System.Drawing.Point(704, 985);
+            this.panel5.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(621, 33);
+            this.panel5.Size = new System.Drawing.Size(1242, 63);
             this.panel5.TabIndex = 97;
             // 
             // label5
@@ -303,10 +322,10 @@ namespace QRCode.UCs
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(5, 6);
-            this.label5.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label5.Location = new System.Drawing.Point(10, 12);
+            this.label5.Margin = new System.Windows.Forms.Padding(12, 0, 12, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(133, 24);
+            this.label5.Size = new System.Drawing.Size(269, 44);
             this.label5.TabIndex = 91;
             this.label5.Text = "Loại sản phẩm";
             // 
@@ -318,10 +337,10 @@ namespace QRCode.UCs
             this.cbbCategory.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbbCategory.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(139)))), ((int)(((byte)(172)))));
             this.cbbCategory.FormattingEnabled = true;
-            this.cbbCategory.Location = new System.Drawing.Point(180, 8);
-            this.cbbCategory.Margin = new System.Windows.Forms.Padding(6);
+            this.cbbCategory.Location = new System.Drawing.Point(360, 15);
+            this.cbbCategory.Margin = new System.Windows.Forms.Padding(12, 12, 12, 12);
             this.cbbCategory.Name = "cbbCategory";
-            this.cbbCategory.Size = new System.Drawing.Size(435, 45);
+            this.cbbCategory.Size = new System.Drawing.Size(866, 81);
             this.cbbCategory.TabIndex = 98;
             this.cbbCategory.SelectedIndexChanged += new System.EventHandler(this.cbbCategory_SelectedIndexChanged);
             // 
@@ -332,10 +351,10 @@ namespace QRCode.UCs
             this.btnUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnUpdate.Font = new System.Drawing.Font("Consolas", 16.125F, System.Drawing.FontStyle.Bold);
             this.btnUpdate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(34)))), ((int)(((byte)(101)))));
-            this.btnUpdate.Location = new System.Drawing.Point(657, 648);
-            this.btnUpdate.Margin = new System.Windows.Forms.Padding(6);
+            this.btnUpdate.Location = new System.Drawing.Point(1314, 1372);
+            this.btnUpdate.Margin = new System.Windows.Forms.Padding(12, 12, 12, 12);
             this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(148, 41);
+            this.btnUpdate.Size = new System.Drawing.Size(296, 79);
             this.btnUpdate.TabIndex = 105;
             this.btnUpdate.TabStop = false;
             this.btnUpdate.Text = "THOÁT";
@@ -351,45 +370,35 @@ namespace QRCode.UCs
             this.btnCreate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCreate.Font = new System.Drawing.Font("Consolas", 14F, System.Drawing.FontStyle.Bold);
             this.btnCreate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.btnCreate.Location = new System.Drawing.Point(830, 648);
-            this.btnCreate.Margin = new System.Windows.Forms.Padding(6);
+            this.btnCreate.Location = new System.Drawing.Point(1660, 1372);
+            this.btnCreate.Margin = new System.Windows.Forms.Padding(12, 12, 12, 12);
             this.btnCreate.Name = "btnCreate";
-            this.btnCreate.Size = new System.Drawing.Size(148, 41);
+            this.btnCreate.Size = new System.Drawing.Size(296, 79);
             this.btnCreate.TabIndex = 104;
             this.btnCreate.TabStop = false;
             this.btnCreate.Text = "THÊM";
             this.btnCreate.UseVisualStyleBackColor = false;
             this.btnCreate.Click += new System.EventHandler(this.btnCreate_Click);
             // 
-            // picImage
-            // 
-            this.picImage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(188)))), ((int)(((byte)(206)))), ((int)(((byte)(229)))));
-            this.picImage.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.picImage.Location = new System.Drawing.Point(2, 2);
-            this.picImage.Name = "picImage";
-            this.picImage.Size = new System.Drawing.Size(321, 321);
-            this.picImage.TabIndex = 0;
-            this.picImage.TabStop = false;
-            this.picImage.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
             // panel6
             // 
             this.panel6.Controls.Add(this.panel7);
             this.panel6.Controls.Add(this.txtID);
             this.panel6.Controls.Add(this.label6);
-            this.panel6.Location = new System.Drawing.Point(352, 104);
+            this.panel6.Location = new System.Drawing.Point(704, 200);
+            this.panel6.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(621, 33);
+            this.panel6.Size = new System.Drawing.Size(1242, 63);
             this.panel6.TabIndex = 106;
             // 
             // panel7
             // 
             this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(139)))), ((int)(((byte)(172)))));
             this.panel7.ForeColor = System.Drawing.Color.Red;
-            this.panel7.Location = new System.Drawing.Point(180, 24);
-            this.panel7.Margin = new System.Windows.Forms.Padding(6);
+            this.panel7.Location = new System.Drawing.Point(360, 46);
+            this.panel7.Margin = new System.Windows.Forms.Padding(12, 12, 12, 12);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(427, 2);
+            this.panel7.Size = new System.Drawing.Size(854, 4);
             this.panel7.TabIndex = 92;
             // 
             // txtID
@@ -398,11 +407,11 @@ namespace QRCode.UCs
             this.txtID.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtID.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtID.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(139)))), ((int)(((byte)(172)))));
-            this.txtID.Location = new System.Drawing.Point(186, 6);
-            this.txtID.Margin = new System.Windows.Forms.Padding(6);
+            this.txtID.Location = new System.Drawing.Point(372, 12);
+            this.txtID.Margin = new System.Windows.Forms.Padding(12, 12, 12, 12);
             this.txtID.Name = "txtID";
             this.txtID.ReadOnly = true;
-            this.txtID.Size = new System.Drawing.Size(415, 37);
+            this.txtID.Size = new System.Drawing.Size(830, 73);
             this.txtID.TabIndex = 90;
             // 
             // label6
@@ -410,16 +419,16 @@ namespace QRCode.UCs
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Black;
-            this.label6.Location = new System.Drawing.Point(5, 6);
-            this.label6.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label6.Location = new System.Drawing.Point(10, 12);
+            this.label6.Margin = new System.Windows.Forms.Padding(12, 0, 12, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(131, 24);
+            this.label6.Size = new System.Drawing.Size(265, 44);
             this.label6.TabIndex = 91;
             this.label6.Text = "*Mã sản phẩm";
             // 
             // CreateProductUC
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(188)))), ((int)(((byte)(206)))), ((int)(((byte)(229)))));
             this.Controls.Add(this.panel6);
@@ -434,8 +443,9 @@ namespace QRCode.UCs
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnMinimize);
+            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Name = "CreateProductUC";
-            this.Size = new System.Drawing.Size(984, 761);
+            this.Size = new System.Drawing.Size(1968, 1463);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel3.ResumeLayout(false);
@@ -443,9 +453,9 @@ namespace QRCode.UCs
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             this.pnlImage.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.picImage)).EndInit();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picImage)).EndInit();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
             this.ResumeLayout(false);

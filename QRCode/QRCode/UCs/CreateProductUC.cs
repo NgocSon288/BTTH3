@@ -40,6 +40,12 @@ namespace QRCode.UCs
         {
             categories = _categoryService.GetAll();
             products = _productService.GetAll();
+
+            LoadNewProductUI();
+        }
+
+        private void LoadNewProductUI()
+        {
             product = new Product();
             product.ID = GetProductID();
             product.Category = categories[0].ID;
@@ -48,6 +54,11 @@ namespace QRCode.UCs
             cbbCategory.DisplayMember = "Name";
 
             txtID.Text = product.ID;
+            txtName.Text = "";
+            txtPrice.Text = "";
+            txtDescription.Text = "";
+            cbbCategory.SelectedIndex = 0;
+            picImage.BackgroundImage = null;
         }
 
         private string GetProductID()
@@ -207,12 +218,15 @@ namespace QRCode.UCs
 
                 if (_productService.Insert(product))
                 {
-                    MessageBox.Show("Lưu thành công!");
+                    products.Add(product);
+                    LoadNewProductUI();
+
+                    MessageBox.Show("Lưu thành công!", "Thông báo!");
                 }
             }
             else
             {
-                MessageBox.Show("Thông tin sản phẩm không hợp lệ");
+                MessageBox.Show("Thông tin sản phẩm không hợp lệ", "Thông báo!");
             }
         }
 

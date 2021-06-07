@@ -26,8 +26,15 @@ namespace QRCode.Data
         {
             try
             {
+                if (isOveride)
+                {
+                    DeleteAll();
+                }
+
                 FileStream fs = new FileStream(FilePath, (isOveride ? FileMode.OpenOrCreate : FileMode.Append), FileAccess.Write, FileShare.None);
                 StreamWriter sw = new StreamWriter(fs);
+
+
 
                 foreach (var entity in entities)
                 {
@@ -102,7 +109,7 @@ namespace QRCode.Data
             {
                 return default;
             }
-        } 
+        }
 
         /// <summary>
         /// Xóa tất cả dữ liệu trong file
@@ -200,7 +207,7 @@ namespace QRCode.Data
 
                 return InsertRange(list);
             }
-            catch (Exception)
+            catch (Exception e)
             {
                 return false;
             }
