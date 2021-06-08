@@ -239,8 +239,6 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="Assets\Images\811829638sp2.jpg" />
-    <Content Include="Assets\Images\93644513sp1.jfif" />
     <Content Include="Assets\Images\logo.png" />
     <Content Include="DB\Category.txt" />
     <Content Include="DB\Product.txt" />

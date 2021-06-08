@@ -171,7 +171,7 @@ namespace QRCode
 
             foreach (var item in orderDetails)
             {
-                dt.Rows.Add(item.Name, item.Count, item.Price, item.Count * item.Price);
+                dt.Rows.Add(item.Name, item.Count, item.Price.ToString("#,##"), (item.Count * item.Price).ToString("#,##"));
             }
 
             return dt;
@@ -266,14 +266,19 @@ namespace QRCode
 
         private void btnCreateOrder_Click(object sender, System.EventArgs e)
         {
+            if (orderDetails.Count <= 0)
+            {
+                MessageBox.Show("Giỏ hàng rỗng");
+                return;
+            }
+
             DataTable dt = GetData();
             double totalSub = (double)orderDetails.Sum(o => o.Count * o.Price);
             double promotion = totalSub * 0.1;
             double totalAll = totalSub - promotion;
 
-
             var f = new fReport();
-            f.Report1(dt, "ReportForm.rdlc", totalSub, promotion, totalAll);
+            f.Report(dt, "ReportForm.rdlc", totalSub, promotion, totalAll);
             f.Show();
         }
 
